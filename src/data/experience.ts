@@ -1,0 +1,68 @@
+import { ExperienceItem } from '../types';
+
+export const experienceData: ExperienceItem[] = [
+  {
+    id: 'kbs',
+    organization: 'Ministry of Youth and Sports',
+    role: 'Information Technology Officer',
+    period: 'March 2026 – Present',
+    isCurrent: true,
+    sector: 'Government / Public Sector',
+    responsibilities: [
+      'Manage end-to-end system design and web application development using PHP and MySQL.',
+      'Perform database management and web server configuration.',
+      'Perform system administration and technical support to ensure application reliability.',
+      'Maintain and enhance existing systems based on operational and user requirements.',
+      'Support system testing, troubleshooting and deployment activities.',
+      'Provide technical support and user assistance across ministry departments.',
+      'Supervise technical staff and provide guidance on system-related issues and user requirements.',
+    ],
+  },
+  {
+    id: 'netsynergy',
+    organization: 'Netsynergy Solutions Sdn. Bhd.',
+    role: 'Junior IT Support Engineer',
+    period: 'April 2025 – February 2026',
+    isCurrent: false,
+    sector: 'Technology Solutions & Support',
+    responsibilities: [
+      'Provide technical assistance in system configuration, installation and maintenance.',
+      'Support equipment setup and user training.',
+      'Manage computer hardware installation and configuration.',
+      'Ensure hardware and software operate as intended.',
+      'Maintain and troubleshoot network and application issues.',
+      'Support daily IT operations.',
+    ],
+  },
+  {
+    id: 'honda',
+    organization: 'Honda Malaysia Sdn. Bhd.',
+    role: 'Executive, IT Business Application',
+    period: 'April 2023 – March 2024',
+    isCurrent: false,
+    sector: 'Automotive & Enterprise Applications',
+    responsibilities: [
+      'Work closely with business users, business analysts and project team members on solutioning during project initiation, implementation and post-implementation support.',
+      'Support project delivery from original concept through project handover.',
+      'Participate in post-production cut-over, monitoring and issue/incident support.',
+      'Coordinate test planning and execution including SIT, UAT, Pre-Go-Live and Post-Go-Live activities.',
+      'Work closely with business users and project managers throughout implementation.',
+    ],
+  },
+  {
+    id: 'kellogg',
+    organization: 'Kellogg Asia Product Sdn. Bhd.',
+    role: 'IT Engineer',
+    period: 'September 2021 – March 2023',
+    isCurrent: false,
+    sector: 'Multinational Manufacturing & Operations',
+    responsibilities: [
+      'Maintain IT network, servers, backups, disaster recovery and CCTV systems.',
+      'Provide IT support for smooth daily business operations.',
+      'Manage and monitor IT inventory including software licences, computers, laptops, printers and devices.',
+      'Support user login, VPN login and VPN client installation.',
+      'Manage Active Directory and Microsoft 365 administration activities.',
+      'Manage physical and virtual storage media.',
+    ],
+  },
+];
